@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box; 
+}
+
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form label{
+    font-family: cursive;
+}
+
+form select{
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 6px;
+    border: none;
+    background-color: rgb(130, 65, 196);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+form input{
+    padding: 0.2rem;
+    width: 120px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border:none;
+    background:rgb(255, 255, 255);
+}
+
+form button{
+    color:white;
+    padding: .5rem;
+    margin-left: 5px;
+    border: none;
+    border-radius: 20px;
+    background:purple;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family:Verdana;
+    transition: all 0.5s ease;
+}
+
+form button:hover{
+    background-color:rgb(202, 43, 202);
+    box-shadow:0px 5px rgba(0, 0, 0, 0.61);
+}
+
+form p{
+    margin-top:20px;
+    color: #fff;
+}

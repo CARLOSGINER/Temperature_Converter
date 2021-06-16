@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>Conversor de Temperatura</header>
+    
+    <form autocomplete="off">
+
+        <div>
+            <label for="unidad">Elija unidad a convertir:</label>
+
+            <select name="unidad" id="unidad">
+                <option value="Celcius">Celcius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="number" id="temperatura"  placeholder="Ingrese valor">
+
+            <button type="button" id="botonCalcular">Convertir</button>
+        </div>
+
+
+        <p id="resultado"></p>
+ 
+    </form>
+    
+    <script src="/main_op1.js"></script>
+
+</body>
+</html>
